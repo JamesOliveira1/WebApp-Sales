@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApp_Sales.Models;
+using WebApp_Sales.Models.ViewModels;
 
 namespace WebApp_Sales.Controllers
 {
