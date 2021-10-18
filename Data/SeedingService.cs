@@ -26,9 +26,9 @@ namespace WebApp_Sales.Data
             }
 
             Department d1 = new Department(1, "Games");
-            Department d2 = new Department(2, "Consoles e Acessórios");
-            Department d3 = new Department(3, "Camisetas");
-            Department d4 = new Department(4, "Serviço Técnico");
+            Department d2 = new Department(2, "Consoles and Accessories");
+            Department d3 = new Department(3, "T-shirts");
+            Department d4 = new Department(4, "Technical Support");
 
             Seller s1 = new Seller(1, "Gustavo", "gustavo@x1games.com", new DateTime(1998, 4, 21), 2500.0, d1);
             Seller s2 = new Seller(2, "Julian", "julian@x1games.com", new DateTime(1979, 12, 31), 2500.0, d1);
