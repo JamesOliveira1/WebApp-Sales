@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebApp_Sales.Data;
 using WebApp_Sales.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebApp_Sales.Services
 {
@@ -16,9 +17,9 @@ namespace WebApp_Sales.Services
             _context = context;
         }
 
-        public List<Department> FindAll()
+        public async Task<List<Department>> FindAllAsync()
         {
-            return _context.Department.OrderBy(x => x.Name).ToList();
+            return await _context.Department.OrderBy(x => x.Name).ToListAsync();
         }
     }
 }
