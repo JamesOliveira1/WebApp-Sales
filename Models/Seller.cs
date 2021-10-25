@@ -22,10 +22,10 @@ namespace WebApp_Sales.Models
             public string Email { get; set; }
 
             [Required(ErrorMessage = "{0} required")]
-            [Display(Name = "Birth Date")]
+            [Display(Name = "Registration Date")]
             [DataType(DataType.Date)]
             [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
-            public DateTime BirthDate { get; set; }
+            public DateTime RegistrationDate { get; set; }
 
             [Required(ErrorMessage = "{0} required")]
             [Range(100.0, 50000.0, ErrorMessage = "{0} must be from {1} to {2}")]
@@ -42,12 +42,12 @@ namespace WebApp_Sales.Models
             {
             }
 
-            public Seller(int id, string name, string email, DateTime birthDate, double baseSalary, Department department)
+            public Seller(int id, string name, string email, DateTime registrationDate, double baseSalary, Department department)
             {
                 Id = id;
                 Name = name;
                 Email = email;
-                BirthDate = birthDate;
+                RegistrationDate = registrationDate;
                 BaseSalary = baseSalary;
                 Department = department;
             }

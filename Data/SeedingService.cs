@@ -30,11 +30,11 @@ namespace WebApp_Sales.Data
             Department d3 = new Department(3, "T-shirts");
             Department d4 = new Department(4, "Technical Support");
 
-            Seller s1 = new Seller(1, "Gustavo", "gustavo@x1games.com", new DateTime(1998, 4, 21), 2500.0, d1);
-            Seller s2 = new Seller(2, "Julian", "julian@x1games.com", new DateTime(1979, 12, 31), 2500.0, d1);
-            Seller s3 = new Seller(3, "Israel", "israel@x1games.com", new DateTime(1988, 1, 15), 2700.0, d2);
-            Seller s4 = new Seller(4, "Bruno", "bruno@x1games.com", new DateTime(1993, 11, 30), 2500.0, d3);
-            Seller s5 = new Seller(5, "Rodrigo", "rodrigo@x1games.com", new DateTime(2000, 1, 9), 4000.0, d4);
+            Seller s1 = new Seller(1, "Gustavo", "gustavo@x1games.com", new DateTime(2019, 4, 21), 2500.0, d1);
+            Seller s2 = new Seller(2, "Julian", "julian@x1games.com", new DateTime(2019, 12, 31), 2500.0, d1);
+            Seller s3 = new Seller(3, "Israel", "israel@x1games.com", new DateTime(2018, 1, 15), 2700.0, d2);
+            Seller s4 = new Seller(4, "Bruno", "bruno@x1games.com", new DateTime(2019, 11, 30), 2500.0, d3);
+            Seller s5 = new Seller(5, "Rodrigo", "rodrigo@x1games.com", new DateTime(2020, 1, 9), 4000.0, d4);
 
             SalesRecord r1 = new SalesRecord(1, new DateTime(2020, 09, 25), 200.0, SaleStatus.Billed, s1);
             SalesRecord r2 = new SalesRecord(2, new DateTime(2020, 09, 4), 100.0, SaleStatus.Billed, s5);
