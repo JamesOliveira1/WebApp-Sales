@@ -13,7 +13,6 @@ namespace WebApp_Sales.Models
 
         public Department()
         {
-
         }
 
         public Department(int id, string name)
@@ -22,7 +21,7 @@ namespace WebApp_Sales.Models
             Name = name;
         }
 
-        public void AddSeller (Seller seller)
+        public void AddSeller(Seller seller)
         {
             Sellers.Add(seller);
         }
@@ -32,5 +31,4 @@ namespace WebApp_Sales.Models
             return Sellers.Sum(seller => seller.TotalSales(initial, final));
         }
     }
-
 }

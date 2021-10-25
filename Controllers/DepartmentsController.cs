@@ -9,7 +9,7 @@ using WebApp_Sales.Data;
 using WebApp_Sales.Models;
 
 namespace WebApp_Sales.Controllers
-{
+{    
     public class DepartmentsController : Controller
     {
         private readonly WebApp_SalesContext _context;
