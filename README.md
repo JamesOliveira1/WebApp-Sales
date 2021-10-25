@@ -6,10 +6,10 @@
 ## Imagens
 
 <p>
-  <img src="./Images/01.png" width="900" title="preview">
+  <img src="./Images/01.PNG" width="900" title="preview">
 <br />
 
-  <img src="./Images/02.png" width="900" title="preview">
+  <img src="./Images/02.PNG" width="900" title="preview">
 
 </p>
 
